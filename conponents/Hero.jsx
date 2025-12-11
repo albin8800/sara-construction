@@ -3,7 +3,7 @@
 export default function Hero() {
   return (
     <section
-      className="w-full h-[800px] md:h-[745px]  bg-cover bg-center relative flex items-center pt-28 md:pt-20"
+      className="w-full h-[820px] md:h-[745px]  bg-cover bg-center relative flex items-center pt-28 md:pt-20"
       style={{ backgroundImage: "url('/images/hero.svg')" }}
     >
       
