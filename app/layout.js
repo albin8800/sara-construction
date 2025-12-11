@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/conponents/Header";
 
 
+
 const mulish = Mulish({
   subsets: ["latin"],
   weight: ["300","400","500","600","700","800","900"], 
@@ -23,7 +24,9 @@ export default function RootLayout({ children }) {
         className={mulish.className}
       >
         {children}
+         
         <Header />
+       
       </body>
     </html>
   );
