@@ -2,6 +2,7 @@ import About from "@/conponents/About";
 import Hero from "@/conponents/Hero";
 import Projects from "@/conponents/Projects";
 import Services from "@/conponents/Services";
+import Testimonials from "@/conponents/Testimonials";
 import WhyUs from "@/conponents/WhyUs";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Projects />
       <WhyUs />
+      <Testimonials />
     </>
   );
 }
