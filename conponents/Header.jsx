@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Header() {
   const pathname = usePathname();
@@ -70,12 +71,15 @@ export default function Header() {
           ${isScrolled ? "bg-white border-b" : "bg-transparent"}
         `}
       >
+
+        <Link href="/">
         
         <img
           src={isScrolled ? "/logo-black.svg" : "/logo-white.svg"}
           alt="logo"
           className="w-24"
         />
+        </Link>
 
        
         <ul className="hidden md:flex gap-8 items-center">

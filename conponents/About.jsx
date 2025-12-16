@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
   return (
     <div className="mt-10 flex flex-col px-4 md:px-20 md:mt-20">
@@ -43,6 +45,7 @@ export default function About() {
             multiple regions.
           </p>
 
+      <Link href="/about">
           <button
             className="w-fit flex items-center gap-2 mt-6 border text-[#816549] text-[15px] md:text-[16px] 
         px-[22px] md:px-[26px] py-[11px] md:py-[13px] rounded-lg
@@ -62,6 +65,7 @@ export default function About() {
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>
           </button>
+        </Link>
         </div>
       </div>
     </div>
