@@ -61,7 +61,7 @@ export default function Header() {
 
         <nav
           className={`flex w-full h-auto md:px-20 px-4 justify-between items-center ${
-            isScrolled ? "bg-white" : "bg-transparent"
+            isScrolled ? "bg-white border-b" : "bg-transparent" 
           }`}
         >
           <div>
