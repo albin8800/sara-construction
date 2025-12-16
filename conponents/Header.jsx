@@ -20,10 +20,10 @@ export default function Header() {
     { name: "Contact", href: "/contact" },
   ];
 
-  // Scroll + route logic
+  
   useEffect(() => {
     if (!isHomePage) {
-      setIsScrolled(true); // Always white header on inner pages
+      setIsScrolled(true); 
       return;
     }
 
@@ -38,7 +38,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full z-50">
 
-      {/* TOP INFO BAR */}
+      
       <div className="w-full bg-[#32291F] px-4 md:px-20 py-2 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-0">
         <div className="hidden md:flex items-center gap-2">
           <img src="/icons/location.svg" className="w-4 h-4" alt="location" />
@@ -64,20 +64,20 @@ export default function Header() {
         </div>
       </div>
 
-      {/* MAIN NAV */}
+      
       <nav
         className={`flex w-full md:px-20 px-4 justify-between items-center transition-all duration-300
           ${isScrolled ? "bg-white border-b" : "bg-transparent"}
         `}
       >
-        {/* LOGO */}
+        
         <img
           src={isScrolled ? "/logo-black.svg" : "/logo-white.svg"}
           alt="logo"
           className="w-24"
         />
 
-        {/* DESKTOP NAV */}
+       
         <ul className="hidden md:flex gap-8 items-center">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -101,7 +101,7 @@ export default function Header() {
           ))}
         </ul>
 
-        {/* MOBILE MENU BUTTON */}
+       
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden transition-all"
@@ -118,7 +118,7 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* MOBILE MENU */}
+     
       {menuOpen && (
         <div className="md:hidden fixed inset-0 bg-[#816549] z-40 px-6 py-6 flex flex-col">
 
