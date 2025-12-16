@@ -6,7 +6,7 @@ export default function Projects() {
   const latestProjects = projects.slice(0, 3);
 
   return (
-    <div className="mt-20 px-4 md:px-20">
+    <div className="mt-10 flex flex-col px-4 md:px-20 md:mt-20">
       
      
       <div className="flex items-center justify-center gap-4 md:gap-6">
@@ -29,7 +29,7 @@ export default function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="h-[240px] w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="h-60 w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
 
