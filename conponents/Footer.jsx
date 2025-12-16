@@ -19,19 +19,24 @@ export default function Footer() {
   return (
     <div className="w-full bg-[#675C52] md:mt-20 mt-16 flex flex-col px-4 md:px-20 pb-10">
 
-  
+      {/* TOP GRID */}
       <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-10 md:gap-0 items-start">
 
-     
-        <div className="flex flex-col gap-2 max-w-[205px] items-center md:items-start text-center md:text-left">
+        {/* LOGO */}
+        <div className="flex flex-col gap-2 max-w-[205px]
+                        items-center md:items-start
+                        text-center md:text-left
+                        justify-self-center md:justify-self-start">
           <img className="w-20 h-20" src="/logo-white.svg" alt="Sara Construction Logo" />
           <p className="text-[16px] text-white leading-relaxed">
             Designed with Purpose, Built with Precision
           </p>
         </div>
 
-    
-        <div className="flex flex-col gap-4 items-center md:items-start">
+        {/* QUICK LINKS */}
+        <div className="flex flex-col gap-4
+                        items-center md:items-start
+                        justify-self-center md:justify-self-start">
           <p className="text-[20px] text-white font-bold">
             Quick Links
           </p>
@@ -57,8 +62,10 @@ export default function Footer() {
           </div>
         </div>
 
-     
-        <div className="flex flex-col gap-4 items-center md:items-start">
+        {/* CONTACT */}
+        <div className="flex flex-col gap-4
+                        items-center md:items-start
+                        justify-self-center md:justify-self-start">
           <p className="text-[20px] text-white font-bold">
             Contact Us
           </p>
@@ -82,7 +89,7 @@ export default function Footer() {
 
       </div>
 
-     
+      {/* SOCIAL */}
       <div className="flex flex-col mt-14 gap-4 justify-center">
         <p className="text-center text-[20px] text-white font-bold">
           Connect with Us On
@@ -95,26 +102,24 @@ export default function Footer() {
         </div>
       </div>
 
-      
       <p className="text-[16px] text-white text-center mt-8">
         © 2025 Sara Construction. All Rights Reserved.
       </p>
 
       <hr className="mt-6 border-[#867D74]" />
 
-    
       <p className="text-center text-[16px] text-white mt-10">
         Designed and Developed by <span className="font-bold">Albin B Thomas</span>
       </p>
 
-      <div className="flex flex-col md:flex-row gap-6 justify-center mt-4">
+      <div className="flex  gap-6 justify-center mt-4">
         <div className="flex gap-2 items-center">
           <img className="h-6 w-6" src="/icons/whatsapp.svg" alt="WhatsApp" />
           <p className="font-semibold text-white">+91 8137050102</p>
         </div>
 
         <div className="flex gap-2 items-center">
-          <img className="h-6 w-6" src="/icons/linkedin.svg" alt="Instagram" />
+          <img className="h-6 w-6" src="/icons/linkedin.svg" alt="LinkedIn" />
           <p className="font-semibold text-white">Albin B Thomas</p>
         </div>
       </div>
