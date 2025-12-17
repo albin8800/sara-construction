@@ -6,10 +6,20 @@ export default function AboutUsPage() {
   return (
     <div>
 
+        <div className="relative w-full mt-32 md:w-full">
+        <img className="w-full fill object-cover" src="/images/aboutpage.svg" alt="aboutus" />
+        <div className="absolute inset-0 flex items-center justify-center">
+        <h1 className="text-white text-[28px] md:text-[48px] font-bold tracking-wide">
+          About Us
+        </h1>
+      </div>
+      </div>
+
     
-      <div className="mt-40 md:mt-56 flex flex-col px-4 md:px-20">
+      <div className=" md:mt-20 mt-10 flex flex-col px-4 md:px-20">
 
       
+
         <div className="flex items-center justify-center gap-4 md:gap-6">
           <hr className="grow border-[#5D4634]" />
           <h1 className="text-center text-[18px] md:text-[24px] font-bold text-[#5D4634] whitespace-nowrap">
