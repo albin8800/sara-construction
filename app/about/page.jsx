@@ -1,4 +1,4 @@
-import About from "@/conponents/About";
+"use client";
 import Footer from "@/conponents/Footer";
 import WhyUs from "@/conponents/WhyUs";
 

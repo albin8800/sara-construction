@@ -1,6 +1,7 @@
 "use client";
 
 import { services } from "@/data/services";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -33,6 +34,8 @@ export default function Services() {
               {service.description}
             </p>
 
+            <Link href={`/services?service=${service.id}`}>
+
             <button
               className="mt-auto w-fit flex items-center gap-2 border text-[#816549] text-[14px] md:text-[16px]
               px-[22px] md:px-[26px] py-[11px] md:py-[13px] rounded-lg
@@ -52,6 +55,8 @@ export default function Services() {
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
             </button>
+
+            </Link>
           </div>
         ))}
       </div>
