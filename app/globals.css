@@ -9,3 +9,16 @@
   -ms-overflow-style: none;  
   scrollbar-width: none;   
 }
+
+@keyframes softBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-softBounce {
+  animation: softBounce 1.8s infinite;
+}

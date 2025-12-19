@@ -1,6 +1,7 @@
 import { Mulish } from "next/font/google";
 import "./globals.css";
 import Header from "@/conponents/Header";
+import WhatsAppButton from "@/conponents/WhatsappButton";
 
 
 
@@ -24,6 +25,8 @@ export default function RootLayout({ children }) {
         className={mulish.className}
       >
         {children}
+
+        <WhatsAppButton />
          
         <Header />
        
