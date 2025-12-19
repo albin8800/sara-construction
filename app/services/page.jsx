@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 
 import Footer from "@/conponents/Footer";
 import ServicesClient from "./ServicesClient";
@@ -20,7 +22,7 @@ export default function ServicePage() {
         </div>
       </div>
 
-      {/* SERVICES (Client-side) */}
+      {/* CLIENT CONTENT */}
       <Suspense fallback={null}>
         <ServicesClient />
       </Suspense>
