@@ -62,6 +62,8 @@ export default function Services() {
       </div>
 
       <div className="w-full flex justify-center mt-10">
+
+        <Link href={"/services"}>
         <button
           className="w-fit flex items-center gap-2 border text-[#816549] text-[15px] md:text-[16px]
           px-[22px] md:px-[26px] py-[11px] md:py-[13px] rounded-lg
@@ -81,6 +83,7 @@ export default function Services() {
             <path d="M5 12h14M13 6l6 6-6 6" />
           </svg>
         </button>
+        </Link>
       </div>
     </div>
   );
