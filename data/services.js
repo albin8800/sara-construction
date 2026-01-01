@@ -3,54 +3,54 @@ export const services = [
     id: 1,
     title: "Residential Construction",
     description:
-      "We design and build strong, durable homes including houses, villas, and apartments. Our team focuses on quality, safety, and comfort to create living spaces that last for generations.",
+      "We build durable residential homes with quality materials, safety standards, and long-lasting comfort.",
     icon: "/icons/service1.svg",
     details:
-      "We design and build high-quality residential spaces including independent houses, villas, and apartments. Our focus is on safety, comfort, durability, and long-term value using premium materials and expert craftsmanship.",
+      "Our residential construction services cover independent houses, villas, and apartment buildings. We manage the entire process from initial planning and design coordination to construction and final handover. Every project is executed with strict quality control, high-grade materials, and adherence to safety standards. We focus on creating comfortable, functional living spaces with strong structural integrity, efficient layouts, and finishes that ensure durability and long-term value for homeowners.",
   },
   {
     id: 2,
     title: "Commercial Construction",
     description:
-      "We construct offices, shops, and commercial buildings with modern designs, structural strength, and timely project delivery.",
-    icon: "/icons/service1.svg",
+      "We construct modern commercial buildings ensuring structural strength, efficient layouts, and timely project delivery.",
+    icon: "/icons/service2.svg",
     details:
-      "We design and build high-quality residential spaces including independent houses, villas, and apartments. Our focus is on safety, comfort, durability, and long-term value using premium materials and expert craftsmanship.",
+      "Our commercial construction services include offices, retail spaces, showrooms, and business complexes. We design and construct buildings that support business operations through efficient space planning, professional aesthetics, and durable structures. Our team ensures compliance with industry standards, smooth project coordination, cost control, and timely delivery to help businesses operate without delays.",
   },
   {
     id: 3,
     title: "Renovation & Remodeling",
     description:
-      "We upgrade and renovate existing structures to improve functionality, appearance, and value while maintaining quality standards.",
-    icon: "/icons/service1.svg",
+      "We renovate existing structures to enhance functionality, appearance, durability, and overall property value.",
+    icon: "/icons/service3.svg",
     details:
-      "We design and build high-quality residential spaces including independent houses, villas, and apartments. Our focus is on safety, comfort, durability, and long-term value using premium materials and expert craftsmanship.",
+      "We offer complete renovation and remodeling solutions for residential and commercial properties. Our services include structural modifications, layout improvements, modern upgrades, and aesthetic enhancements. We carefully assess existing conditions and execute upgrades while maintaining quality workmanship, minimizing disruption, and significantly improving usability, safety, and property value.",
   },
   {
     id: 4,
     title: "Interior Works",
     description:
-      "Complete interior solutions including false ceilings, modular kitchens, wardrobes, and customized designs.",
-    icon: "/icons/service1.svg",
+      "We provide complete interior solutions with customized designs, modern finishes, and space-efficient planning.",
+    icon: "/icons/service4.svg",
     details:
-      "We design and build high-quality residential spaces including independent houses, villas, and apartments. Our focus is on safety, comfort, durability, and long-term value using premium materials and expert craftsmanship.",
+      "Our interior works include false ceilings, modular kitchens, wardrobes, lighting solutions, wall finishes, and customized furniture. We focus on combining functionality, comfort, and visual appeal through thoughtful design and quality execution. Every interior project is tailored to client preferences, ensuring efficient space utilization, modern finishes, and long-lasting results.",
   },
   {
     id: 5,
-    title: "Project Management",
+    title: "Architectural Services",
     description:
-      "End-to-end project planning, execution, and supervision ensuring quality, safety, and on-time completion.",
-    icon: "/icons/service1.svg",
+      "We design modern architectural solutions balancing aesthetics, functionality, efficient space planning, and practicality.",
+    icon: "/icons/service5.svg",
     details:
-      "We design and build high-quality residential spaces including independent houses, villas, and apartments. Our focus is on safety, comfort, durability, and long-term value using premium materials and expert craftsmanship.",
+      "Our architectural services cover concept design, space planning, 2D layouts, 3D visualizations, and detailed construction drawings. We focus on creating designs that are visually appealing, practical, and structurally efficient. By understanding client requirements and site conditions, we deliver architectural solutions that maximize space usage, comply with regulations, and support smooth project execution.",
   },
   {
     id: 6,
     title: "Maintenance Services",
     description:
-      "Reliable building maintenance and repair services to keep your property safe, functional, and long-lasting.",
-    icon: "/icons/service1.svg",
+      "We offer reliable maintenance services ensuring property safety, functionality, efficiency, and long-term durability.",
+    icon: "/icons/service6.svg",
     details:
-      "We design and build high-quality residential spaces including independent houses, villas, and apartments. Our focus is on safety, comfort, durability, and long-term value using premium materials and expert craftsmanship.",
+      "Our maintenance services include electrical repairs, plumbing works, structural maintenance, waterproofing, and general property upkeep. We help property owners maintain safety standards, prevent long-term damage, and extend the lifespan of buildings through regular inspections, timely repairs, and professional maintenance solutions.",
   },
 ];

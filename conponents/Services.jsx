@@ -37,7 +37,7 @@ export default function Services() {
             <Link href={`/services?service=${service.id}`}>
 
             <button
-              className="mt-auto w-fit flex items-center gap-2 border text-[#816549] text-[14px] md:text-[16px]
+              className="mt-auto w-fit flex  items-center gap-2 border text-[#816549] text-[14px] md:text-[16px]
               px-[22px] md:px-[26px] py-[11px] md:py-[13px] rounded-lg
               transition-all duration-300 hover:bg-[#816549] hover:text-white group"
             >

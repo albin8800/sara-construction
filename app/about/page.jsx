@@ -4,7 +4,7 @@ import WhyUs from "@/conponents/WhyUs";
 
 export default function AboutUsPage() {
   return (
-    <div>
+    <div >
 
         <div className="relative w-full mt-32 md:w-full">
         <img className="w-full fill object-cover" src="/images/aboutpage.svg" alt="aboutus" />
