@@ -19,11 +19,11 @@ export default function Footer() {
   return (
     <div className="w-full bg-[#675C52] md:mt-20 mt-16 flex flex-col px-4 md:px-20 pb-10">
 
-      {/* TOP GRID */}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-10 md:gap-0 items-start">
 
-        {/* LOGO */}
-        <div className="flex flex-col gap-2 max-w-[205px]
+       
+        <div className="flex flex-col max-w-[205px]
                         items-center md:items-start
                         text-center md:text-left
                         justify-self-center md:justify-self-start">
@@ -33,7 +33,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* QUICK LINKS */}
+       
         <div className="flex flex-col gap-4
                         items-center md:items-start
                         justify-self-center md:justify-self-start">
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* CONTACT */}
+       
         <div className="flex flex-col gap-4
                         items-center md:items-start
                         justify-self-center md:justify-self-start">
@@ -72,8 +72,8 @@ export default function Footer() {
 
           <div className="flex flex-col gap-3">
             {[
-              ["/icons/location-footer.svg", "Address 1 Street 5 location 3 Area 4"],
-              ["/icons/call-footer.svg", "+91 8756475890"],
+              ["/icons/location-footer.svg", "Joyal House Panangadu Punalur P.O , Kollam, Kerala 691305"],
+              ["/icons/call-footer.svg", "+91 9446327288, +91 8921962943"],
               ["/icons/mail-footer.svg", "saraplr7288@gmail.com"],
               ["/icons/time-footer.svg", "Mon - Sun (8 AM - 10 PM)"],
             ].map(([icon, text], i) => (
@@ -89,21 +89,42 @@ export default function Footer() {
 
       </div>
 
-      {/* SOCIAL */}
+     
       <div className="flex flex-col mt-14 gap-4 justify-center">
         <p className="text-center text-[20px] text-white font-bold">
           Connect with Us On
         </p>
 
         <div className="flex gap-6 justify-center">
-          <img src="/icons/instagram.svg" alt="Instagram" />
-          <img src="/icons/facebook.svg" alt="Facebook" />
-          <img src="/icons/whatsapp.svg" alt="WhatsApp" />
-        </div>
+  <a
+    href="https://www.instagram.com/sara__constructions/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/icons/instagram.svg" alt="Instagram" />
+  </a>
+
+  <a
+    href="https://m.facebook.com/profile.php?id=61585742849397"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/icons/facebook.svg" alt="Facebook" />
+  </a>
+
+  <a
+    href="https://wa.me/919446327288"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/icons/whatsapp.svg" alt="WhatsApp" />
+  </a>
+</div>
+
       </div>
 
       <p className="text-[16px] text-white text-center mt-8">
-        © 2025 Sara Construction. All Rights Reserved.
+        © 2026 Sara Construction. All Rights Reserved.
       </p>
 
       <hr className="mt-6 border-[#867D74]" />
