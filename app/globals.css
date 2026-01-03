@@ -22,3 +22,59 @@
 .animate-softBounce {
   animation: softBounce 1.8s infinite;
 }
+
+
+/* WORD CONTAINER */
+.loader-word {
+  position: relative;
+  height: 32px;
+  width: 220px;
+  overflow: hidden;
+}
+
+/* WORD STYLE */
+.loader-word span {
+  position: absolute;
+  inset: 0;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+/* EACH WORD HAS ITS OWN ANIMATION WINDOW */
+.loader-word span:nth-child(1) {
+  animation: rollUp 0.8s ease-in-out 0s both;
+}
+
+.loader-word span:nth-child(2) {
+  animation: rollUp 0.8s ease-in-out 0.8s both;
+}
+
+.loader-word span:nth-child(3) {
+  animation: rollUp 0.8s ease-in-out 1.6s both;
+}
+
+/* CLEAN ROLL-UP */
+@keyframes rollUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
